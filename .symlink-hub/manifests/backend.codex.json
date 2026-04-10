@@ -1,0 +1,35 @@
+{
+  "projectName": "backend",
+  "agent": "codex",
+  "generatedAt": "2026-04-10T04:31:30Z",
+  "mode": "symlink",
+  "entries": [
+    {
+      "sourceItemIds": [
+        "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/content/agent/codex-base.md"
+      ],
+      "sourcePath": "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/content/agent/codex-base.md",
+      "outputPath": "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/projects/backend/CODEX.md",
+      "action": "create",
+      "checksum": ""
+    },
+    {
+      "sourceItemIds": [
+        "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/content/rule/commit-format.md"
+      ],
+      "sourcePath": "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/content/rule/commit-format.md",
+      "outputPath": "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/projects/backend/.codex/rules/commit-format.md",
+      "action": "create",
+      "checksum": ""
+    },
+    {
+      "sourceItemIds": [
+        "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/content/skill/auth-login.md"
+      ],
+      "sourcePath": "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/content/skill/auth-login.md",
+      "outputPath": "/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/projects/backend/.codex/skills/auth-login.md",
+      "action": "create",
+      "checksum": ""
+    }
+  ]
+}

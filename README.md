@@ -1,18 +1,56 @@
 # Symlink-Hub
 
-本仓库用于构建一个本地 AI 配置内容中枢：统一管理 `agent`、`skill`、`rule`、`doc`、`command`，并按项目与 agent 规则分发到目标工程。
+Local AI configuration content hub and distribution CLI.
 
-当前已补充首版设计文档：
+## Overview
 
-- [PRD](/Users/cakk/Project/Symlink-Hub/docs/v1.0/PRD.md)
-- [系统设计](/Users/cakk/Project/Symlink-Hub/docs/v1.0/System-Design.md)
-- [实施计划](/Users/cakk/Project/Symlink-Hub/docs/v1.0/Implementation-Plan.md)
+Manage AI coding configurations (agents, skills, rules, docs, commands) in one place and distribute them to multiple projects.
 
-建议先按 `docs/v1.0/System-Design.md` 的目录结构初始化 TypeScript CLI 工程，再进入首期开发。
+## Tech Stack
 
-当前仓库已包含第一版 TypeScript CLI 骨架与示例配置，可先运行：
+- **Go 1.26** - Core CLI implementation
+- **YAML** - Configuration format
+- **Markdown + Frontmatter** - Content format
+
+## Project Structure
+
+```
+Symlink-Hub/
+├── cmd/
+│   └── symlink-hub/          # CLI entry point
+├── internal/
+│   ├── core/                 # Core types and interfaces
+│   ├── config/               # Configuration models
+│   ├── content/              # Content scanning and parsing
+│   ├── project/              # Project loading and selectors
+│   ├── builder/              # Build plan generation
+│   ├── distributor/          # File distribution (symlink/copy)
+│   └── agent/                # Agent-specific logic
+├── fixtures/
+│   ├── content/              # Example content
+│   └── projects/             # Example project configs
+└── docs/                     # Design documents
+```
+
+## Design Documents
+
+- [PRD](docs/v1.0/PRD.md)
+- [System Design](docs/v1.0/System-Design.md)
+
+## Quick Start
 
 ```bash
-npm install
-npm run dry-run -- backend --agent codex
+# Build
+go build -o symlink-hub cmd/symlink-hub/main.go
+
+# Run
+./symlink-hub sync backend --agent codex
 ```
+
+## Commands
+
+- `sync` - Distribute content to projects
+- `dry-run` - Preview build plan without changes
+- `clean` - Remove distributed files
+- `status` - Show sync status
+- `doctor` - Check configuration health

@@ -1,0 +1,1 @@
+/data/data/com.termux/files/home/Projects/Symlink-Hub/fixtures/content/skill/auth-login.md
