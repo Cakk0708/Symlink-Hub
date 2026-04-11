@@ -1,0 +1,51 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Django: Dev FKQ Environment",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "runserver",
+                "0.0.0.0:8001"
+            ],
+            "django": true,
+            "program": "${workspaceFolder}/manage.py",
+            "justMyCode": true,
+            "preLaunchTask": "set-dev-fkq-env",
+            "env": {
+                "DJANGO_ENVIRONMENT": "dev_fkq"
+            },
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "django": true,
+            "program": "${workspaceFolder}/.vscode/debug.py",
+            "args": [
+                "${input:pickTasks}"
+            ],
+            "justMyCode": true,
+            "preLaunchTask": "set-dev-fkq-env",
+            "env": {
+                "DJANGO_ENVIRONMENT": "dev_fkq",
+            },
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "pickTasks",
+            "description": "选择操作脚本方式",
+            "options": [
+                "继续执行",
+                "其他脚本"
+            ]
+        }
+    ]
+}

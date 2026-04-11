@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(antigravity)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "Bash(done)",
+      "Bash(grep:*)",
+      "Skill(daily-report-export)",
+      "Skill(module-resolver)",
+      "Bash(python3:*)",
+      "Bash(git log:*)",
+      "Bash(python manage.py test:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(git fetch:*)",
+      "Bash(for:*)",
+      "Bash(do:*)",
+      "Bash(echo:*)",
+      "Bash(while read hash:*)",
+      "Bash(git show:*)",
+      "Bash(pip install:*)"
+    ]
+  }
+}

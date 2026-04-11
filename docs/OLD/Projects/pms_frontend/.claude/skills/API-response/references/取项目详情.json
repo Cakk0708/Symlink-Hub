@@ -1,0 +1,155 @@
+{
+    "msg": "success",
+    "data": {
+        "id": 10,
+        "name": "【ea1】esse",
+        "create_time": "2026-03-04 10:32:03",
+        "deadline_time": "2001-10-05 00:00:00",
+        "complete_time": false,
+        "last_change_time": false,
+        "content": "",
+        "state": 5,
+        "place_order_flag": false,
+        "is_overdue": false,
+        "creator": {
+            "id": 1,
+            "nickname": "范凯强",
+            "avatar": "https://s1-imfile.feishucdn.com/static-resource/v1/v2_707d25b0-e918-45c3-8fdb-490093874f4g~?image_size=72x72&cut_type=&quality=&format=image&sticker_format=.webp"
+        },
+        "owner": {
+            "id": 1,
+            "nickname": "范凯强",
+            "avatar": "https://s1-imfile.feishucdn.com/static-resource/v1/v2_707d25b0-e918-45c3-8fdb-490093874f4g~?image_size=72x72&cut_type=&quality=&format=image&sticker_format=.webp"
+        },
+        "followers": [],
+        "customer": {
+            "id": 1,
+            "name": "sunt labore sed qui in",
+            "model_id": 13,
+            "model": "Model4"
+        },
+        "nodes": {
+            "current": {
+                "id": 9,
+                "name": "节点2"
+            },
+            "list": [
+                {
+                    "id": 7,
+                    "name": "节点1",
+                    "state": {
+                        "explain": "已完成",
+                        "code": 1,
+                        "color": {
+                            "describe": "green",
+                            "primary": "#68b948",
+                            "minor": "#68b9487a"
+                        },
+                        "isDelayed": false
+                    },
+                    "parent_id": null,
+                    "sub_nodes": [],
+                    "schedule": {
+                        "start": null,
+                        "end": null,
+                        "is_overdue": false
+                    }
+                },
+                {
+                    "id": 8,
+                    "name": "节点3",
+                    "state": {
+                        "explain": "已完成",
+                        "code": 1,
+                        "color": {
+                            "describe": "green",
+                            "primary": "#68b948",
+                            "minor": "#68b9487a"
+                        },
+                        "isDelayed": false
+                    },
+                    "parent_id": null,
+                    "sub_nodes": [],
+                    "schedule": {
+                        "start": null,
+                        "end": null,
+                        "is_overdue": false
+                    }
+                },
+                {
+                    "id": 9,
+                    "name": "节点2",
+                    "state": {
+                        "explain": "已完成",
+                        "code": 1,
+                        "color": {
+                            "describe": "green",
+                            "primary": "#68b948",
+                            "minor": "#68b9487a"
+                        },
+                        "isDelayed": false
+                    },
+                    "parent_id": null,
+                    "sub_nodes": [],
+                    "schedule": {
+                        "start": null,
+                        "end": null,
+                        "is_overdue": false
+                    }
+                }
+            ]
+        },
+        "evaluationAvailable": false,
+        "evaluationVisible": false,
+        "evaluationStatus": {
+            "value": "ALL_EVALUATED",
+            "label": "全部已评价",
+            "color": "green"
+        }
+    },
+    "authority": {
+        "1001": true,
+        "1002": true,
+        "1003": true,
+        "1004": true,
+        "1005": true,
+        "1006": true,
+        "1007": true,
+        "1008": true,
+        "1100": true,
+        "1101": true,
+        "1102": true,
+        "1103": true,
+        "1104": true,
+        "1105": true,
+        "1200": true,
+        "1201": true,
+        "1202": true,
+        "1300": true,
+        "1106": true,
+        "2001": true,
+        "2002": true,
+        "2004": true,
+        "2005": true,
+        "2006": true,
+        "2203": true,
+        "2008": true,
+        "2400": true,
+        "2010": true,
+        "2011": true,
+        "2012": true,
+        "2200": true,
+        "2201": true,
+        "2202": true,
+        "2205": true,
+        "2009": true,
+        "2013": true,
+        "2007": true,
+        "2300": true,
+        "2500": true,
+        "2600": true,
+        "3000": true,
+        "3001": true,
+        "3002": true
+    }
+}

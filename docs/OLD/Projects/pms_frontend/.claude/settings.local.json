@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git rebase:*)",
+      "Bash(find:*)",
+      "Bash(for:*)",
+      "Bash(node:*)",
+      "Bash(chmod:*)",
+      "Bash(/Users/ly/Code/pms_frontend/.claude/skills/pms-auth-architecture/scripts/test-checklist.sh)",
+      "Bash(npm run lint:*)",
+      "Bash(grep:*)",
+      "Skill(API-response)",
+      "Bash(git commit:*)",
+      "Skill(git-commit)",
+      "Bash(git push:*)",
+      "Skill(summarize-work)",
+      "Bash(git checkout:*)",
+      "Bash(ls:*)",
+      "Skill(vue-layouts-doc)"
+    ]
+  }
+}

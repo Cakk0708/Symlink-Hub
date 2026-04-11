@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(git-commit)",
+      "Bash(git show:*)",
+      "Bash(git rebase:*)",
+      "Bash(git merge-base:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git merge:*)",
+      "Bash(git reset:*)",
+      "Bash(tree:*)",
+      "Bash(npm run build:*)",
+      "Bash(DJANGO_ENVIRONMENT=dev python manage.py makemigrations:*)",
+      "Bash(source:*)",
+      "Bash(xxd:*)",
+      "Skill(map-sync-vue)",
+      "Bash(git add:*)",
+      "Bash(git submodule:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run dev)",
+      "Skill(vue-layouts-doc)",
+      "Bash(find:*)",
+      "Bash(DJANGO_ENVIRONMENT=dev python manage.py:*)",
+      "Bash(DJANGO_ENVIRONMENT=dev .venv/bin/python:*)",
+      "Bash(npx vue-tsc:*)",
+      "Bash(git checkout:*)",
+      "Bash(git stash:*)",
+      "Skill(map-backend-api)"
+    ]
+  }
+}
