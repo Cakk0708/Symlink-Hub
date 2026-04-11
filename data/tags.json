@@ -1,0 +1,14 @@
+[
+    "root",
+    "global",
+    "duolingo",
+    "duolingo_backend",
+    "duolingo_frontend",
+    "duolingo_h5",
+    "frontend",
+    "mom_backend",
+    "pms-admin_frontend",
+    "pms_backend",
+    "pms_frontend",
+    "python-backend"
+]

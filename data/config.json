@@ -1,0 +1,3002 @@
+{
+    "rules": [
+        {
+            "wRGEOxNudayoXmvYIUe8": {
+                "name": "code-style",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "约束 Python 代码行宽、空行、文件结尾空行和类名格式。"
+            },
+            "TUltQoLbiugO7kjYrPDF": {
+                "name": "delete-serializer",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "规范删除序列化器必须使用可校验的批量 ids 字段。"
+            },
+            "r0gnM5RHsCOGnydZNafR": {
+                "name": "code-style",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "约束 Python 代码行宽、空行、文件结尾空行和类名格式。"
+            },
+            "rgptC1XKGDkvjPS6zgSy": {
+                "name": "comment-standards",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "定义模块、函数和局部逻辑的三级注释写法与禁用项。"
+            },
+            "SJhQKIr04rkPYtc8XsOx": {
+                "name": "enums",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "要求枚举使用 Django Choices 并提供统一的列表输出方法。"
+            },
+            "jrbdSCLRLKQM3kEwe2xr": {
+                "name": "import",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "规范模块导入的分级顺序以及不同级别之间的分组换行。"
+            },
+            "cUjMYjJPxhwRF0NxR1t2": {
+                "name": "migrations",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "将 Django migrations 目录视为只读，禁止手工修改历史迁移。"
+            },
+            "eVs4eMZhUfJ0VcKWywW3": {
+                "name": "model",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "规定模型 Meta 配置和字段设计要求，禁止直接使用 ManyToManyField。"
+            },
+            "3H7MjJz5R4PrehQiReqR": {
+                "name": "naming-conventions",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "统一模型、通用字段和 REST URL 的命名规则。"
+            },
+            "NK4YKS0oU1GsYQHCvbku": {
+                "name": "delete-serializer",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "规范删除序列化器必须使用可校验的批量 ids 字段。"
+            },
+            "AIlnOorgc4cxLrB6ZrCA": {
+                "name": "detail-serializer",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "约束详情序列化器字段顺序，基础字段在前、嵌套字段在后。"
+            },
+            "SBWu4qxWp0mJYYlbZfUZ": {
+                "name": "list-serializer",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "约束列表序列化器字段顺序并限制不必要的对象字段构造。"
+            },
+            "IPT7HeWCkpmy5aVFeIVf": {
+                "name": "naming",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "统一不同用途序列化器的类名后缀和命名格式。"
+            },
+            "5RNCWVHGlk9Ih32zXgOU": {
+                "name": "params-serializer",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "规范列表参数序列化器的必备字段、过滤逻辑和分页返回。"
+            },
+            "8FZ4kd66olK323PcfjMr": {
+                "name": "simple-serializer",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "约束简单序列化器的字段声明顺序，先基础字段后嵌套字段。"
+            },
+            "Sr5h00AZYxrdYVkZcBSe": {
+                "name": "write-serializer",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "serializers"
+                ],
+                "description": "规范写入序列化器使用 camelCase 字段并通过 source 映射模型字段。"
+            },
+            "Coj8R48kPg56alJXErHH": {
+                "name": "views",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "定义视图职责边界、命名后缀和同文件内的排序规则。"
+            },
+            "907JyBAsmHhhEwU0o4AT": {
+                "name": "detail-view",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "views"
+                ],
+                "description": "要求详情视图在 dispatch 中预取实例并统一处理不存在场景。"
+            },
+            "zTaWdDK9qa3tS67PN3Kx": {
+                "name": "enum-view",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "views"
+                ],
+                "description": "规范枚举视图通过 Choices 输出统一的枚举数据结构。"
+            },
+            "GZz6Z9t8AkPWxHWbqLit": {
+                "name": "list-view",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "views"
+                ],
+                "description": "规定列表视图返回 msg、data 和 items 加 count 的响应结构。"
+            },
+            "4XbdHl4pXSIXzFvOY34W": {
+                "name": "simple-view",
+                "tags": [
+                    "python-backend"
+                ],
+                "structure": [
+                    "views"
+                ],
+                "description": "规定简单列表视图的基础继承方式和统一响应结构。"
+            },
+            "XFDEhHNc1L3zqgtRQTyS": {
+                "name": "style",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "定义前端页面与组件的 Duolingo 风格视觉系统和设计约束。"
+            },
+            "fGaejU2XoYmI2PUoau19": {
+                "name": "Terms",
+                "tags": [
+                    "duolingo"
+                ],
+                "description": "定义 duolingo 项目中子工程、前端、H5 和后端等核心术语。"
+            }
+        }
+    ],
+    "skills": [
+        {
+            "wyGb01LmWc2gMQUrZ8Ef": {
+                "name": "git-commit",
+                "tags": [
+                    "global"
+                ],
+                "description": "智能 Git 提交助手",
+                "reference": [
+                    "oA16ZsPltcnkgR4iaLQw"
+                ]
+            },
+            "BTTwKJ60zpfFhgUwnxJG": {
+                "name": "docs-map-sync",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "在模块文档或 API 文档变更后同步 docs/map 中对应模块条目的链接。",
+                "reference": [
+                    "DEMxWDRrTOX0k4BKMAMB"
+                ]
+            },
+            "3ONi3HwSDzwGPrnMrreS": {
+                "name": "map-backend-api",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "读取 Django 模块代码并生成或更新对应的 API 接口文档。",
+                "reference": [
+                    "0IItt0qnbFBAAmO0rWNN"
+                ]
+            },
+            "dVMNMGJvp36GyQPNmLoD": {
+                "name": "map-backend-module",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "在模块开发完成后同步项目地图、模块说明和项目规范文档。",
+                "reference": [
+                    "VXlraBQTSvlS3WTYDFpE",
+                    "MxXFiFPwAk7baTZp59iU",
+                    "7SRtTWhS43wuOIIVM9BI"
+                ]
+            },
+            "4xTox2vrtspgxn0Dy0AC": {
+                "name": "django-map-sync",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "在 docs/module 或 docs/api 更新后同步 docs/map/README.md 中的模块文档路径。",
+                "reference": [
+                    "1wZF2TqYCSU2zF0Tm8bb"
+                ]
+            },
+            "mH4i9KP15BZS3FU1zdhW": {
+                "name": "frontend-layout-map",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "根据用户提供的页面点分路径定位前端布局节点和对应组件文件。"
+            },
+            "Gq1Bt1Op7FTc7Bi8Zlcg": {
+                "name": "map-frontend-module",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "在前端模块变更后同步项目地图、模块说明和相关规范文档。",
+                "reference": [
+                    "GnhTTdla7dfnIQrqdlq7",
+                    "vN9RWoUM03hX7tYxDVrv",
+                    "huzfZB2CCi4ZjFZgcw3J"
+                ]
+            },
+            "8GjD6oZCTJYIdYmBlKf1": {
+                "name": "map-sync-vue",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "读取 Vue 模块的 API、Store、路由和页面代码并生成模块文档。",
+                "reference": [
+                    "qiF5Hf3z3t6gvSGm553X"
+                ]
+            },
+            "q5HkUF3RKRFEXSztRnFr": {
+                "name": "vue-layout-doc",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "提取 Vue 页面组件结构并生成布局说明文档及 map 索引。",
+                "reference": [
+                    "Xr6wxjOicMUR9TIvkpEI"
+                ]
+            },
+            "oKz5Y683yntyqNzDcA3S": {
+                "name": "utils-code_generator",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "处理 Django 模型唯一编码的前缀、日期和流水号生成规则。"
+            },
+            "bBg7uFOo5faj2t1s2W65": {
+                "name": "daily-report-expert",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "结合 Git 提交与 Obsidian 日志生成并回写每日工作汇报。",
+                "reference": [
+                    "6VOBXUj0dKQ10yDpT2rx"
+                ]
+            },
+            "oN60033bur7eQjm9LOyJ": {
+                "name": "module-resolver",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "通过模块映射表定位 MOM 或 PMS 模块的实际代码路径。",
+                "reference": [
+                    "BB60Pkq6VhSfwcYBlwd3"
+                ]
+            },
+            "Ca4ykbWPAhsA5VgMd3KR": {
+                "name": "vocab-simple-list",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "解释 MOM 项目中 Simple 列表相关术语、职责和实现约束。"
+            },
+            "dYMV2tYnh3nE0gDBwrlL": {
+                "name": "vocabulary-flatten-serializer",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "解释扁平化列表序列化器的定位、输出结构和排序规则。"
+            },
+            "st21lLjYcY2ZtsMKUJ2W": {
+                "name": "vocab-enums-list",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "说明枚举系统、元数据枚举和权限枚举的代码规范与定位方式。"
+            },
+            "OCwN8bd9Ykh8ftAa0I8D": {
+                "name": "apifox-import",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "根据 Django 模块代码生成可导入 Apifox 的接口定义文件。",
+                "reference": [
+                    "AaD7UQUCuGonGFGF5HPp",
+                    "CJ0XKwLVXd5IXB4dG3ZO"
+                ]
+            },
+            "qCk7mFB3hmpxDIZgnG5Y": {
+                "name": "django_model_design",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "在设计 Django Model 和数据库表时提供模型设计约束。"
+            },
+            "aCraDcyqYaaJ0tHzUN6v": {
+                "name": "django_serializer_design",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "在设计 Django Serializer 时提供请求和响应字段的设计约束。"
+            },
+            "QoXzhGPlCcYYGccMyvap": {
+                "name": "interservice_api",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "说明 PMS 与外部服务之间基于 JWT 加 AES 的微服务通信方案。"
+            },
+            "RQX3X1L88vQos2CPml4s": {
+                "name": "pms-architecture",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "介绍 PMS 与 PMS-Admin 双系统的职责划分和数据交互架构。"
+            },
+            "KufU5pLg8aNijTFo9joV": {
+                "name": "terminology",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "提供 PMS 项目术语到模块路径和业务概念的映射。"
+            },
+            "Lln9Y33a7YPdDsRA5gl5": {
+                "name": "user-token-management",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "说明 PMS 用户认证、JWT 登录和飞书 Token 管理相关实现。",
+                "reference": [
+                    "9GqB5zWrKklOwv6kARYA",
+                    "yBQTJ3NayyS2onEe1UXy",
+                    "6Ve6Vxy8fUFa2BxO86oO"
+                ]
+            },
+            "ybTYkSA45T3LMhz9Opbb": {
+                "name": "utils-feishu-auth_manager",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "聚焦飞书 OAuth 认证流程中的授权码换 Token 和刷新 Token 逻辑。"
+            },
+            "j4YjeYj29rOD0MgZ0G7v": {
+                "name": "utils-feishu-file_manager",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "统一管理飞书文件上传、下载、移动和删除等文件操作。"
+            },
+            "NfHQCFHhygHuh2HdLMHS": {
+                "name": "utils-feishu-sheet_manager",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "统一管理飞书表格的创建、读写、样式设置和工作表操作。"
+            },
+            "7i31hwWB3VoWcvYTRhi1": {
+                "name": "utils-feishu-user_manager",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "封装飞书用户信息获取、批量查询和部门信息查询能力。"
+            },
+            "kJL4i4lBDKmKLIwn7zos": {
+                "name": "API-response",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "提供 PMS 前端常用接口的请求参数和响应结构参考。",
+                "reference": [
+                    "hhfHPKv27JH5DOyo27hx",
+                    "dq6DCYb0MPhP9VyZNx5S"
+                ]
+            },
+            "Pm5iG3aQyowIeKynlCkJ": {
+                "name": "pages-auth",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "聚焦登录选择页和 OAuth 回调页的前端认证流程与已知问题。",
+                "reference": [
+                    "1afFOwqOmh8NkDnIf7BU"
+                ]
+            },
+            "rGSGJZl6snMeUA7QGz4W": {
+                "name": "project-detail",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "介绍 PMS 项目详情页的横屏布局、节点流程图和权限架构。",
+                "reference": [
+                    "kD8QAQlsArP0Jcp7DgEL"
+                ]
+            },
+            "pnitfmU1nJBmvgsTy4Yd": {
+                "name": "project-detail-folder",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "说明项目详情页文件管理标签页的树形结构与交付物展示逻辑。"
+            },
+            "V3yEm2rekRXJC0eUTNnB": {
+                "name": "project-detail-follower",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "说明项目详情页关注人模块的关注者增删和状态同步逻辑。"
+            },
+            "6tl2OZkzpPFjo5d0iFVi": {
+                "name": "project-detail-log",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "说明项目详情页操作记录标签页的日志展示和分页加载逻辑。"
+            },
+            "mKuzCkvOdt3LhVeQhaE6": {
+                "name": "project-detail-node_deliverable",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "说明节点交付物的上传、版本管理、冻结和状态流转逻辑。"
+            }
+        }
+    ],
+    "references": [
+        {
+            "oA16ZsPltcnkgR4iaLQw": {
+                "name": "conventional-commits.md"
+            },
+            "DEMxWDRrTOX0k4BKMAMB": {
+                "name": "map-format.md",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "提供 docs/map/README.md 表格版地图的结构、字段和链接格式规范。"
+            },
+            "0IItt0qnbFBAAmO0rWNN": {
+                "name": "api-detail-templates.md",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "提供 API 文档中列表、创建和详情等接口章节的编写模板。"
+            },
+            "VXlraBQTSvlS3WTYDFpE": {
+                "name": "CLAUDE.md",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "提供项目级 CLAUDE.md 的技术栈、铁律和按需阅读约定示例。"
+            },
+            "7SRtTWhS43wuOIIVM9BI": {
+                "name": "map范例.md",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "提供项目地图文档的模块全景、依赖关系和数据流示例。"
+            },
+            "MxXFiFPwAk7baTZp59iU": {
+                "name": "module.md",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "提供单个业务模块说明文档的章节结构和填写示例。"
+            },
+            "1wZF2TqYCSU2zF0Tm8bb": {
+                "name": "map-format.md",
+                "tags": [
+                    "python-backend"
+                ],
+                "description": "提供 docs/map/README.md 列表式地图的命名规则和条目格式。"
+            },
+            "GnhTTdla7dfnIQrqdlq7": {
+                "name": "CLAUDE.md",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "提供项目级 CLAUDE.md 的技术栈、约束和文档入口示例。"
+            },
+            "huzfZB2CCi4ZjFZgcw3J": {
+                "name": "map范例.md",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "提供前端模块地图、数据流、块树和依赖关系的说明示例。"
+            },
+            "vN9RWoUM03hX7tYxDVrv": {
+                "name": "module.md",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "提供前端模块说明文档的章节结构和填写模板。"
+            },
+            "qiF5Hf3z3t6gvSGm553X": {
+                "name": "detail-templates.md",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "提供 Vue 模块接口函数文档的列表、创建和详情模板。"
+            },
+            "Xr6wxjOicMUR9TIvkpEI": {
+                "name": "layout-doc-template.md",
+                "tags": [
+                    "frontend"
+                ],
+                "description": "提供页面布局文档的章节结构、tag 规则和区块说明模板。"
+            },
+            "6VOBXUj0dKQ10yDpT2rx": {
+                "name": "template.md",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "提供每日工作汇报回写到日志时使用的排版模板。"
+            },
+            "BB60Pkq6VhSfwcYBlwd3": {
+                "name": "modules.csv",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "提供 MOM 和 PMS 模块名称到实际路径的映射表。"
+            },
+            "8LalU1mtFN274miDN7Pw": {
+                "name": "CLAUDE.md",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "提供 pms_backend 项目的技术栈、铁律和文档入口参考。"
+            },
+            "FwsP6U8Ex3GKYGdagq0C": {
+                "name": "module.md",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "提供 pms_backend 模块说明文档的章节结构和示例。"
+            },
+            "AaD7UQUCuGonGFGF5HPp": {
+                "name": "bdm-example.json",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "提供 Apifox 导入生成时参考的业务模块示例数据。"
+            },
+            "CJ0XKwLVXd5IXB4dG3ZO": {
+                "name": "field-mapping.md",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "提供 JSON Schema 到 Django 字段类型和选项的映射规则。"
+            },
+            "9GqB5zWrKklOwv6kARYA": {
+                "name": "feishu_token_manager.md",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "说明飞书 Token 管理器的接口、缓存策略和刷新逻辑。"
+            },
+            "yBQTJ3NayyS2onEe1UXy": {
+                "name": "user_helper.md",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "说明 UserHelper 如何统一构造和挂载 request.userinfo。"
+            },
+            "6Ve6Vxy8fUFa2BxO86oO": {
+                "name": "user_model.md",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "说明 User 与 UserFeishuToken 模型的字段和关系结构。"
+            },
+            "hhfHPKv27JH5DOyo27hx": {
+                "name": "取项目列表.json",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "提供 PMS 前端项目列表接口的请求和响应示例数据。"
+            },
+            "dq6DCYb0MPhP9VyZNx5S": {
+                "name": "取项目详情.json",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "提供 PMS 前端项目详情接口的响应示例数据。"
+            },
+            "1afFOwqOmh8NkDnIf7BU": {
+                "name": "architecture-overview.md",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "说明 PMS 前端多平台认证改造后的 OAuth 架构总览。"
+            },
+            "kD8QAQlsArP0Jcp7DgEL": {
+                "name": "取详情.json",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "提供项目详情模块相关接口的响应示例数据。"
+            }
+        }
+    ],
+    "agents": [
+        {
+            "YVXs7vXAoJxVEJ9VTmNL": {
+                "name": "backend-python-dev",
+                "tags": [
+                    "duolingo"
+                ],
+                "description": "负责 duolingo 项目 backend/ 目录下的 Python 和 Django 后端开发任务。"
+            },
+            "wm0EhVizO5WQsdjiF6a3": {
+                "name": "frontend-dev",
+                "tags": [
+                    "duolingo"
+                ],
+                "description": "负责 duolingo 项目 frontend/ 目录下的 PC 端 Vue 前端开发任务。"
+            },
+            "zu7BLQNXrkGTy1EdTCRF": {
+                "name": "h5-frontend-dev",
+                "tags": [
+                    "duolingo"
+                ],
+                "description": "负责 duolingo 项目 h5/ 目录下的移动端 Vue 前端开发任务。"
+            }
+        }
+    ],
+    "commands": [
+        {
+            "mno6x37rukIoZpudKMKS": {
+                "name": "antigravity",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "结合已连接 IDE 的当前激活文件和提问内容给出分析与修改建议。"
+            },
+            "1sOCDicIHq4lHdbCC4ZZ": {
+                "name": "apifox",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "根据请求方式、路径和序列化器输出可导入 Apifox 的 JSON Schema。"
+            },
+            "uGBsK3IXqPeGBpWKt16Y": {
+                "name": "code_define",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "为制造业和 Django 场景提供变量命名和术语翻译建议。"
+            },
+            "eaFityZjovYdseytrdWD": {
+                "name": "data-migrate",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "指导设计并验证从生产库迁移到开发库的数据迁移脚本。"
+            }
+        }
+    ],
+    "docs": [
+        {
+            "BOumhauaW7uIN95RZcIQ": {
+                "name": "aps-order",
+                "tags": [
+                    "duolingo"
+                ],
+                "description": "记录 APS - Order 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "9Vl8VCDGEMtzkDWJpF5V": {
+                "name": "aps-order_log",
+                "tags": [
+                    "duolingo"
+                ],
+                "description": "记录 APS - OrderExecutionLog 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "bxyyD7hqnwMA13ISyJZQ": {
+                "name": "aps-order-log",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 APS - Order Execution Log 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "DXongS1stTrk9qVO2oVK": {
+                "name": "aps-order",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 APS - Order 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "tStN50SlQ5ah93Lf88fE": {
+                "name": "bdm-account",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 BDM - Account 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "ySHIfqLqBbxT523EkSQZ": {
+                "name": "bdm-customer",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 BDM - Customer 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "cvO14kvvL6y9lPc3NiOs": {
+                "name": "sm-dashboard",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 SM - Dashboard 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "QT3cG8NQFrmnx8brPw2f": {
+                "name": "sm-organization",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 SM - Organization 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "AOSn3zX5gWMGCGrpO9uA": {
+                "name": "sm-user",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 SM - User 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "ZQjmiI4jQnN8sx8ywVIT": {
+                "name": "map",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 Project 项目的地图和文档索引。"
+            },
+            "Z23C824SmHC2eWGI1Oya": {
+                "name": "aps-order",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 APS 订单模块 (Order) 技能说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "Pf5a8AlX1KRWG3cPugiM": {
+                "name": "bdm-account",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 Accounts 模块专家技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "7fHP4RdWaMVs9FT6Mxtw": {
+                "name": "bdm-customer",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 BDM 客户管理模块 (Customer Module) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "cdUpXIrkPuGMpT1akifw": {
+                "name": "sm-organization",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 organization 模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "iZyUBLEA5zaOvFBBmxbm": {
+                "name": "sm-user",
+                "tags": [
+                    "duolingo_backend"
+                ],
+                "description": "记录 SM (System Management) 用户管理模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "qvf577xHf9XdsMZi90uK": {
+                "name": "account-detail",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 账号管理详情页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "MwrewQudyEK2VGsTYDEI": {
+                "name": "account-list",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 账号管理列表页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "M8WWXZqTxJyUe4qjRGDH": {
+                "name": "dashboard",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 Dashboard 页面布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "p724dVmgBACaQBI6EhaB": {
+                "name": "order-detail",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 订单详情页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "2QDbhE3Zh6XvHKeO9Y96": {
+                "name": "order-list",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 订单列表页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "Z9oSQWHwEVVQWnA8IYqA": {
+                "name": "organization-detail",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 组织详情页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "dF7wihiNHS2zdJ7I342r": {
+                "name": "organization-list",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 组织列表页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "51ulxRqmIMpKDjBv9uM1": {
+                "name": "package-detail",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 套餐管理 - 详情页布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "e3H0LGuHMzAhg4ryDvSm": {
+                "name": "package-list",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 套餐管理 - 列表页布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "0rWa7ViZeZ63yMf1M8A": {
+                "name": "map",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 Project 项目的地图和文档索引。"
+            },
+            "itHkOiPhwD24DEjV4QuK": {
+                "name": "aps-order",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 APS Order 模块文档 的模块说明文档。",
+                "structure": [
+                    "module"
+                ]
+            },
+            "2x5iMaw4PTKVeIgCiO7g": {
+                "name": "aps-order",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 APS - 订单管理模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "TlGOeJjPgC5BeYW22hjP": {
+                "name": "aps",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 APS (订单管理) 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "ZQxtERAfHW2Ps656wJmw": {
+                "name": "bdm-account",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 BDM - 账号管理模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "jrSAeTJ2iIlTm3ZwkuCw": {
+                "name": "bdm-customer",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 BDM - 客户管理模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "QeSuR2gwyROCBIYSOLvR": {
+                "name": "bdm",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 BDM (基础数据管理) 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "4as8wymsDxifrfEa3FmB": {
+                "name": "dashboard",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 Dashboard 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "uRsmIJQtarA8he90w3w": {
+                "name": "login",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 Login 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "j3I662IOrI44Aex2FXzw": {
+                "name": "sm-user",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 SM - 用户管理模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "7Nggy6XTQJRutfmgZeAa": {
+                "name": "sm",
+                "tags": [
+                    "duolingo_frontend"
+                ],
+                "description": "记录 SM (系统管理) 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "sTqfytP0TCWbrLB8x5DH": {
+                "name": "api-integration",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 API 集成 的项目说明文档。"
+            },
+            "pZFqKApLbHWbsVqAMyHA": {
+                "name": "architecture",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 项目架构 的项目说明文档。"
+            },
+            "bFXd7Lr8jxwGBV2AQkZE": {
+                "name": "authentication",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 认证 的项目说明文档。"
+            },
+            "cYS84yP4qZX41EXoTokp": {
+                "name": "business-logic",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 核心业务逻辑 的项目说明文档。"
+            },
+            "KFyasoOCZNt5VpVI573R": {
+                "name": "coding-standards",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 代码规范 的项目说明文档。"
+            },
+            "0MuhoDwMsrav5LZ7qHXi": {
+                "name": "development",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 开发命令 的项目说明文档。"
+            },
+            "k1HuWtFuXCRUFsNikjPY": {
+                "name": "error-handling",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 错误处理 的项目说明文档。"
+            },
+            "kbmICuQBoEPtJnSMNGw": {
+                "name": "order",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 order 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "nqIUZ932VRma7XYOG1AV": {
+                "name": "map",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 Project 项目的地图和文档索引。"
+            },
+            "VDtY5cw8p8xMayJ6DdP5": {
+                "name": "mobile-adaptation",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 移动端适配 的项目说明文档。"
+            },
+            "7EVGQfweVR4okwqnZGfE": {
+                "name": "order",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 Order 模块文档 的模块说明文档。",
+                "structure": [
+                    "module"
+                ]
+            },
+            "iHkwPmhyqJ6iROCDoSZK": {
+                "name": "account",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 BDM 模块 - 业务数据管理 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "0n7G49Wq99kzGI0cjZJ4": {
+                "name": "customer",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 BDM 模块 - 业务数据管理 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "dy8bjubQ6Ly9WWurbJNg": {
+                "name": "dashboard",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 Dashboard 模块 - 仪表盘 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "hh3aQeKiQag90RRjWYZA": {
+                "name": "login",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 Login 模块 - 用户登录 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "VlRTdWn9OXzgPi0CRL6W": {
+                "name": "order",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 APS 模块 - 异步处理系统 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "esC424d392FYnU0LiHWh": {
+                "name": "register",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 Register 模块 - 用户注册 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "v8TaTsswKDxYzTpAc0sg": {
+                "name": "overview",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 项目概述 的项目说明文档。"
+            },
+            "r0eEEs7G5ANGV20As6z5": {
+                "name": "routing",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 路由守卫 的项目说明文档。"
+            },
+            "F7rdpbJjWeSwMiQOedBg": {
+                "name": "tech-stack",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 技术栈 的项目说明文档。"
+            },
+            "s0bOIM7rf5hc9eCz2c2A": {
+                "name": "testing",
+                "tags": [
+                    "duolingo_h5"
+                ],
+                "description": "记录 测试 的项目说明文档。"
+            },
+            "iLvpBgVsNL9vWofhp9DM": {
+                "name": "component-map",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PMS Admin Frontend 项目地图 的项目说明文档。"
+            },
+            "mTkBC2Qz0E2q1YN0oRI2": {
+                "name": "AppLink",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 AppLink 应用链接组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "P6BMvNvC77NQu1MRKJBS": {
+                "name": "Breadcrumb",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 Breadcrumb 面包屑组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "W3Ad85dRhfJDGDKGnauA": {
+                "name": "DictTag",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 DictTag 字典标签组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "VMB3GsSa65Ij6WcEySnj": {
+                "name": "Hamburger",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 Hamburger 折叠按钮组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "RnvZkZjkmgnZ5Q309LMh": {
+                "name": "ImageUpload",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 ImageUpload 图片上传组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "Uaa4cg05VBqwWFNErO59": {
+                "name": "LYDialog",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYDialog 统一对话框组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "w3dKMyTjCdT72rQYjJXL": {
+                "name": "LYIcon",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYIcon 图标组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "TuSiwukDJ9RKdbSpld0L": {
+                "name": "LYOrg",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYOrg 组织信息组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "HHDSecAUxJ1iodic5j23": {
+                "name": "LYOther",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYOther 其他信息组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "CuU8EYyaYoSukgKziuTu": {
+                "name": "LYPopTable",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYPopTable 弹窗表格组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "06bY1FukEw2iNjH54wQ": {
+                "name": "LYSpace",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYSpace 间隔布局组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "GBOs5VesfbWe05DJEXQR": {
+                "name": "LYTable",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYTable 通用表格组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "VxD30rthvIPufndmq3kC": {
+                "name": "LYTitleLabel",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYTitleLabel 标题块容器组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "FtpptvyRzUNwSZBSkUY6": {
+                "name": "LYTree",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYTree 可搜索树组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "eQES26gKH04f2zX9KlwZ": {
+                "name": "LYlabel",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 LYlabel 标题标签组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "gxqUivKk3OEHo4yeFqT3": {
+                "name": "Pagination",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 Pagination 分页组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "hAcLy0d8wokSc5UPzM4D": {
+                "name": "SearchIcon",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 SearchIcon 搜索图标组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "kZcnROGZ7uB6FMuX49y6": {
+                "name": "SvgIcon",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 SvgIcon SVG 图标组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "Gpw79v767s1DBb17NVxW": {
+                "name": "filterPop",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 filterPop 过滤悬浮窗组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "HKtbo3QaGBZqIytBV91g": {
+                "name": "popModal",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 popModal 自定义模态窗组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "Rpk9veqp8dul8K4myWBx": {
+                "name": "searchSelect",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 searchSelect 搜索选择组件 的组件说明文档。",
+                "structure": [
+                    "components"
+                ]
+            },
+            "jWrwxeXGOSkCKiWSsHdD": {
+                "name": "perm-list",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 项目详情页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "iSHgJPptAiep1syLKQ3w": {
+                "name": "module-map",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PMS Admin Frontend 项目地图 的项目说明文档。"
+            },
+            "HeOpgI0glESZ25UDGEo0": {
+                "name": "bdm-customer",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 BDM 客户管理模块 (Customer) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "hh1X9X9Be0kO0AJznubw": {
+                "name": "bdm-department",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 BDM 部门管理模块 (department) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "EwrrUxl94Z8ykWwuNwar": {
+                "name": "psc-deliverable_definition",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PM交付物定义模块 (DeliverableDefinition) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "twdQNF4zocES3Y7QqecR": {
+                "name": "psc-evaluation_config",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PSC 评价配置模块 (EvaluationConfig) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "yFwGU1tQYDPXsNxQeOAi": {
+                "name": "psc-hardware_spec",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PSC 硬件规格模块专家技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "VvHFavQBJBzHH01bAi3c": {
+                "name": "psc-node_definition",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PM 项目节点定义模板模块专家 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "Xm5S5pAH6cle3p4UCTaZ": {
+                "name": "psc-project_role",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PSC 项目角色模块 (ProjectRole) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "IzUYgae5umRvaFtWW4wO": {
+                "name": "psc-project_template",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PSC 项目模板模块 (Project Template) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "ammHVkV2ROP1Pc3VzOyw": {
+                "name": "psc-review_definition",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 PSC 评审定义模块 (reviewdefinition) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "Alq3GBrwdnYFzpNHJpls": {
+                "name": "sm-perm",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 SM 权限管理模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "kjv3ywNFwIetoUNtxzKv": {
+                "name": "sm-role",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 SM 角色管理模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "vGFyBBrRBQnf9QTmUJW4": {
+                "name": "sm-user",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 SM 用户管理模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "yyGSLQKnoFChTea55ZvM": {
+                "name": "sm-version_control",
+                "tags": [
+                    "pms-admin_frontend"
+                ],
+                "description": "记录 SM 版本管理模块 (versionControl) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "vGddBV5h6MA2GimPqHc8": {
+                "name": "bdm-customer",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 BDM - Customer 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "gJ1IyRKhYJAfdFXj0i4l": {
+                "name": "bdm-department",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 BDM - Department 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "Rip3rS2lKoXEcIxNi5ro": {
+                "name": "bdm-staff",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 BDM - Staff 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "Oy7kyDbh0HNVjBMYIZAw": {
+                "name": "pm-continuation",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Project_Continuation 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "LRHuIlCCLJImDLZvGb90": {
+                "name": "pm-deliverable-instance",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - DeliverableInstance 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "YvLtFhCm8020irhdAKbJ": {
+                "name": "pm-deliverable_file",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - DeliverableFile 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "mcQKNUwPwvlI7ebUSA0l": {
+                "name": "pm-deliverable_freeze",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - DeliverableFreeze 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "Y7lcjs4ftiokynzsfQ": {
+                "name": "pm-deliverable_instance",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - DeliverableInstance 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "JrqguaTsqDrzOXc9zKRW": {
+                "name": "pm-evaluation_v2",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - EvaluationV2 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "UtW9C3TD0j3WBGcfYd4Q": {
+                "name": "pm-evaluation_v3_config",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - EvaluationV3Config 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "FK6SOx5VXE2VFFdJOAkd": {
+                "name": "pm-hardware_deliverable",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - HardwareDeliverable 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "OdZYPqZQzAp1MyLmEvav": {
+                "name": "pm-hardware_reuse",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - HardwareDeliverable Reuse 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "QxPkFaxAmYu9TcFMntWn": {
+                "name": "pm-nodelist",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - NodeList 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "tOQFVs2MPZt5HhLaFAVn": {
+                "name": "pm-nodelist_note",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - NodeListNote 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "v9D1agLEjKMylFSOvMmw": {
+                "name": "pm-nodelist_owner",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - NodeListOwner 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "aujj48ZbyJRbchCMY1Qv": {
+                "name": "pm-nodelist_review",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - NodeListReview 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "QdLu1QOKPXIFU1ei5lri": {
+                "name": "pm-order",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Order 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "SvYcYMHJRGhDxqsI58fH": {
+                "name": "pm-project",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Project 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "aqYkjPMEAT1N7Btftwud": {
+                "name": "pm-project_category",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - ProjectCategory 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "GHpXMps4gBtcrvlD5SoO": {
+                "name": "pm-project_change",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Project_change 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "todJfLbeiGqt1dUjATGP": {
+                "name": "pm-project_folder",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - ProjectFolder 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "D4Q1ykSYuA15swKs6fmr": {
+                "name": "pm-project_follower",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - ProjectFollower 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "xkRNM71Epd2YtArSA9ut": {
+                "name": "pm-project_hardware",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - ProjectHardware 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "XztBpSkaHdOBpWl4bLRd": {
+                "name": "pm-project_log",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - ProjectLog 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "RHpAh0jsPHdmy8C7VL0T": {
+                "name": "pm-project_pause",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Project_Pause 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "UUJo7B8Qoutz5CjDbCRQ": {
+                "name": "pm-project_status",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Project Status 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "B6DOgtWker6bNPj4wADH": {
+                "name": "pm-timeline",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Timeline 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "tCrTRvkOO1EUAO2sxooo": {
+                "name": "psc-deliverable_definition",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - DeliverableDefinition 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "ep4QkisY65FBEXFGzOmO": {
+                "name": "psc-evaluation_config",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - EvaluationConfig 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "GYB62WiEexlJkprGAvsA": {
+                "name": "psc-file_extension_type",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - FileExtensionType 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "NetEl0DgnFQJjhuoajzQ": {
+                "name": "psc-hardware_spec",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - HardwareSpec 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "1OZs5tIDd057tRYuohN7": {
+                "name": "psc-node_definition",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - NodeDefinition 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "i8Mm2HjtsV1jitAzRUYR": {
+                "name": "psc-project_role",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - ProjectRole 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "fFMrmrn7rDMCHSWbOPzB": {
+                "name": "psc-project_template",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - ProjectTemplate 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "KoaubZfVWHXIlEh2oKqk": {
+                "name": "psc-project_template_label",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - ProjectTemplateLabel 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "hus2BaZwWHVoP0Clclg6": {
+                "name": "psc-review_definition",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC - ReviewDefinition 接口文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "Wm3iTS0caad5Kff1noRT": {
+                "name": "sm-auth",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM - 认证模块 API 文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "ibEYXlQdwDqSNvPRgDV1": {
+                "name": "sm-permission",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM - 权限管理模块 API 文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "6qOJh5CKRM4o7r7vLRCZ": {
+                "name": "sm-role",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM - 角色管理模块 API 文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "xk2OIx6TiTSBtbOjvGIM": {
+                "name": "sm-user",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM - 用户管理模块 API 文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "qcOjBwfebVpiHmRhhkCk": {
+                "name": "sm-user_preference",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM - 用户偏好设置 API 文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "LvO5gsG9RPOfELk06LCl": {
+                "name": "sync-commands",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 权限管理命令文档 的接口说明文档。",
+                "structure": [
+                    "api"
+                ]
+            },
+            "qaGRi5Nb9STnUjpEGvYy": {
+                "name": "data-flow",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 数据流 的项目说明文档。"
+            },
+            "XOn5U5d9hc9KXkvNOXlg": {
+                "name": "data-relationship",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PMS Backend 数据模型关系地图 的项目说明文档。"
+            },
+            "iWbL4crXrcr521AvF3DO": {
+                "name": "map",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 Project 项目的地图和文档索引。"
+            },
+            "h1UmIAsqXbAfvKc5eGHR": {
+                "name": "SM",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM 模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "1xbfQHFdQ59sk8eSiLsn": {
+                "name": "api-callback",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 API Callback 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "YKgfXhJofSH5gTgRCyFQ": {
+                "name": "bdm-customer",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 BDM Customer 模块技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "BUF6S4v222vsSFycF2PU": {
+                "name": "bdm-customer_model",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 BDM CustomerModel 模块技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "mVV843YeUooSyVdhJ5Jd": {
+                "name": "bdm-department",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 BDM 部门管理模块 (bdm-department) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "tqYYSvk6JAA9jqTICJag": {
+                "name": "bdm-staff",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 BDM Staff 模块技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "5MaHGGcIyRrNfju3pv2C": {
+                "name": "pm-authority",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM Authority 权限验证模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "ge9Uek89d2w6xzZGGDVo": {
+                "name": "pm-deliverable_evaluate",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM交付物评价模块 (DeliverableEvaluate) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "CG4bHvPehvUlJJalRI41": {
+                "name": "pm-deliverable_file",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 交付物文件模块 (DeliverableFile) 技能文档 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "OvMLDICAC8Vk6MBtNc8I": {
+                "name": "pm-deliverable_folder",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 交付物文件夹模块技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "uItAswbsRDYCMb2VXcc0": {
+                "name": "pm-deliverable_freeze",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 交付物冻结模块专家 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "BfYGHQ1YaT3RBtZSvkXp": {
+                "name": "pm-deliverable_instance",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 交付物实例模块专家 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "pMnL8DtXmldjQ7ZUb0UO": {
+                "name": "pm-hardware_reuse",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Hardware 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "JXAYtT83pKMbnmuy0EFC": {
+                "name": "pm-hardwares_config",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 配置清单模块 (PM Hardwares Config Module) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "OS78r4yWkZzCi6zJbKCy": {
+                "name": "pm-node_review",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 节点评审项模块 (PM Node Review) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "UAMZwaKf9BmndDbiqnxM": {
+                "name": "pm-nodelist",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 节点列表模块 (PM NodeList Module) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "3i4p9psuATljWhR67Nb8": {
+                "name": "pm-nodelist_deliverable",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 节点交付物模块 (PM NodeList Deliverable Module) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "JAvGH7YlkiILnyePunEy": {
+                "name": "pm-nodelist_note",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 项目节点笔记模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "y3cTonLZtKgPT1gotwwX": {
+                "name": "pm-nodelist_owner",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 节点负责人管理模块 (pm-nodelist_owner) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "dl2r2PB05flHuI6poCqH": {
+                "name": "pm-nodelist_review",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 节点评审项模块 (PM-NodeList-Review) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "E0O3tjdOrMMMl9Sl6U6l": {
+                "name": "pm-project_category",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 项目分类模块 (pm-project_category) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "Bi0NHhFj4zAIsZaBjGCw": {
+                "name": "pm-project_change",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 项目设计变更模块专家 (PM-project_change) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "zxFQO26yaJIQi5mAXH5m": {
+                "name": "pm-project_folder",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 项目文件夹模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "Q6dPnk9XIYfRqiGJz3yH": {
+                "name": "pm-project_follower",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 项目关注者模块 (PM Project Follower Module) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "TehmcOGOKfUlZlBtetcj": {
+                "name": "pm-project_list",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 项目列表模块 (PM Project List) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "CFoC8kjJJhCNHQJpAg": {
+                "name": "pm-project_log",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM 项目日志模块 (PM Project Log) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "GQ70eiWtwT0QZ9LmPi4r": {
+                "name": "pm-project_pause",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Project_Pause 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "gsmKOkOb1tNPojuKgd9C": {
+                "name": "pm-timeline",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PM - Timeline 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "p07SerupMZ5XWq1OGD9z": {
+                "name": "psc-deliverable_definition",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC 交付物定义模块技能文档 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "vsXBsOj5OQnjuoKsh85m": {
+                "name": "psc-deliverable_definition_template",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC 交付物定义模板模块 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "OW5FsRDzLPULowrk92I1": {
+                "name": "psc-file_extension_type",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC 文件扩展名类型模块技能文档 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "NKkOaVZP24NioV9sb03A": {
+                "name": "psc-node_definition",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC 节点定义模块 (PSC Node Definition) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "ObuIVBNxQbNbyDNhYvA9": {
+                "name": "psc-project_role",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC 项目角色模块 (ProjectRole) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "vj8w1lynfiJxE7cn73BN": {
+                "name": "psc-project_template",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC 项目模板模块 (Project Template) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "juAPyGBwWksRMLaL1Ppm": {
+                "name": "psc-review_definition",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 PSC 评审项定义模块 (PSC Review Definition) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "Z8lOjIVBiPhcxpu1iLXE": {
+                "name": "sm-auth",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM Auth 模块技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "JzdzNor8nYWTUcjPNLXd": {
+                "name": "sm-auth_oauth",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM 认证模块 OAuth 2.0 专家 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "5SJWS9ZxjGfS38IlutBM": {
+                "name": "sm-messages",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM/messages 模块说明 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "NXaGJvSCZTwyIIOgafFj": {
+                "name": "sm-perm",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM 权限管理模块 (sm-perm) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "vccV6UzpZWIlm4c4FFxU": {
+                "name": "sm-role",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM 角色管理模块 (sm-role) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "rb60hoGFsZRkBqBHTww": {
+                "name": "sm-user",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM 用户模块 (sm-user) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "GOgogrDQa9hb9JXWSFHf": {
+                "name": "sm-version_control",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 SM Version Control 模块技能 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "JsOxISuR5ZXhAgf4T9EA": {
+                "name": "utils-openapi-feishu",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 Utils OpenAPI Feishu 模块 (utils-openapi-feishu) 的模块说明文档。",
+                "structure": [
+                    "modules"
+                ]
+            },
+            "Q4onxIzRwhhuGJg84GtZ": {
+                "name": "permissions-system",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 权限系统重构说明 的项目说明文档。"
+            },
+            "dkkLL8wRtbZ5PqvWACyw": {
+                "name": "api-detail-templates",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 API 接口详情模板 的参考说明文档。",
+                "structure": [
+                    "references"
+                ]
+            },
+            "ERXhX8TTPqzWpZLTEP21": {
+                "name": "architecture",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 架构设计 的项目说明文档。"
+            },
+            "WKV6pTmvUMT7o8qj6qTC": {
+                "name": "auth",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 认证机制 的项目说明文档。"
+            },
+            "4CSlfuR1iiMBWq9UlNKF": {
+                "name": "enums",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 状态枚举参考 的项目说明文档。"
+            },
+            "ZiEled1XRT4RcbYu9SGE": {
+                "name": "env",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 环境配置 的项目说明文档。"
+            },
+            "UGjbOe7e40lZigCpzcHw": {
+                "name": "index",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 项目首页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "brqlfXLZPKWAH55oTPjq": {
+                "name": "project-detail",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 项目详情页 布局说明 的页面布局说明文档。",
+                "structure": [
+                    "layouts"
+                ]
+            },
+            "Yc4Dz7lxWOuSryoWEP7z": {
+                "name": "map",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 Project 项目的地图和文档索引。"
+            },
+            "zZNQxyXk8hBxxNFxUnMF": {
+                "name": "modules",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 关键模块定位 的项目说明文档。"
+            },
+            "dHjFao9JFmetplaQix8I": {
+                "name": "node",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 节点系统 的项目说明文档。"
+            },
+            "36XPlDvwJqSpx8aO1nWD": {
+                "name": "project",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 项目模块 的项目说明文档。"
+            },
+            "6qNQHHogu0xVmuYxaWGZ": {
+                "name": "routes",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 页面路由映射 的项目说明文档。"
+            },
+            "8YjpJ0RgqOyWGlPzFAs8": {
+                "name": "storage",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 存储键名 的项目说明文档。"
+            },
+            "O8AeKqeTGtdmt1olqdLs": {
+                "name": "structure",
+                "tags": [
+                    "pms_frontend"
+                ],
+                "description": "记录 目录结构 的项目说明文档。"
+            }
+        }
+    ],
+    "memory": [
+        {
+            "b3pURnbHlZnA5tuL86N8": {
+                "tags": [
+                    "global"
+                ]
+            },
+            "0wqbU7wBCibjnYBbUdgp": {
+                "tags": [
+                    "duolingo"
+                ]
+            },
+            "xmZ5jmdI9Qe40YGC6sLZ": {
+                "tags": [
+                    "duolingo_frontend"
+                ]
+            },
+            "FM6dAu7evvmEtePQfiSR": {
+                "tags": [
+                    "duolingo_h5"
+                ]
+            },
+            "zQAMxjCx4F5KulK1JcOk": {
+                "tags": [
+                    "mom_backend"
+                ]
+            },
+            "fmYiDCLKKSDKSOOLmfFd": {
+                "tags": [
+                    "pms-admin_frontend"
+                ]
+            },
+            "1Kzs6aTUBghXfxwpjZHl": {
+                "tags": [
+                    "pms_backend"
+                ]
+            },
+            "Qr6m7qywiuEqzhBEuSrn": {
+                "tags": [
+                    "pms_frontend"
+                ]            
+            }
+        }
+    ],
+    "mcp": [
+        {
+            "C2pmtIMu5NnNJNMOsoFp": {
+                "name": ".mcp",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 pms_backend 项目中用于接入 Apifox API 文档服务的 MCP 配置。"
+            }
+        }
+    ],
+    "others": [
+        {
+            "aStheMo6maIToakEmvZv": {
+                "name": ".debug_history",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 调试历史数据。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "0BtzmDYbZA61jGM0KGV9": {
+                "name": "debug",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 本地调试入口脚本。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "InGfIIi2P8bbZXBRuWgz": {
+                "name": "execute",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 本地调试入口脚本。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "tH0wIjWuN0IRPC5JKHjH": {
+                "name": "launch",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 的调试启动配置。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "K5OGRvvI4MSFhsAesFJl": {
+                "name": "aps_plorder",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "jo5BKLdXpEB8hifw283a": {
+                "name": "mes_prcmat",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "2uqkgkTUSftl5tC7L5wh": {
+                "name": "mes_reprec",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "4HOatsilLJyhmJkYSiFl": {
+                "name": "mes_workorder",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "6e3nYWKhnEfglp4BkvM5": {
+                "name": "settings",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 的工作区设置。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "DRhXvbA2OWoFLZgLjDfW": {
+                "name": "task",
+                "tags": [
+                    "mom_backend"
+                ],
+                "description": "记录 VS Code 的任务执行配置。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "cEAhpDuCY1y5Hv1is9I0": {
+                "name": ".debug_history",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 调试历史数据。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "TvbgIqLRQn77zL7hm9Cs": {
+                "name": "debug",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 本地调试入口脚本。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "s1n5WjkeRYthHQJKfFyF": {
+                "name": "launch",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 的调试启动配置。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "WbSYZrzDaKb4IwQXklq7": {
+                "name": "api_feishu",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "cTrmDrLRna67PqzChUtS": {
+                "name": "bdm_department",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "TbaybDK2DQKrFIrBHB9q": {
+                "name": "feishu_manager",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "S6mmGqoB8KZ9Njc84KA": {
+                "name": "others",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "CxX7b7lVAM2ytGk1Fl4Q": {
+                "name": "pm_deliverable",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "C7WcpF8PEuRpP2H5h0ft": {
+                "name": "pm_deliverable_instance",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "9bY4Plci3Ddetx0kqeTu": {
+                "name": "pm_eva_config",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "ekPcoRj901qqKqSdbibW": {
+                "name": "pm_eva_record",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "sv3XjBGWacGEf1CHPvqK": {
+                "name": "pm_nodelist",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "b1vynDveYb1fY4AJAGMQ": {
+                "name": "pm_permission",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "gNZ53Zdrt5MRcSheH6RQ": {
+                "name": "pm_project",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "dhyHQerjWNagwc7z68BN": {
+                "name": "pm_project_change",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "Yz7UYOxHeWuFVRivPyIK": {
+                "name": "pm_project_folder",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "bryBVW9GAKNKP5ZG0Du7": {
+                "name": "psc_deliverable",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "NP84ZsS8s58naKHWdhoq": {
+                "name": "sm_auth",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "mRRcdRDfaslAkmlW7Qa3": {
+                "name": "sm_perm",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "FuZmaXHlxkUnSFiiGnRQ": {
+                "name": "sm_system",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "VDq6viKmEqv96cM5zdB1": {
+                "name": "sm_user",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 辅助调试和数据处理用的脚本文件。",
+                "structure": [
+                    ".vscode",
+                    "scripts"
+                ]
+            },
+            "8sK5UZldC5idyS3iBMzg": {
+                "name": "settings",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 的工作区设置。",
+                "structure": [
+                    ".vscode"
+                ]
+            },
+            "f0pfUkEwRJTsSStIW1kn": {
+                "name": "tasks",
+                "tags": [
+                    "pms_backend"
+                ],
+                "description": "记录 VS Code 的任务执行配置。",
+                "structure": [
+                    ".vscode"
+                ]
+            }
+        }
+    ]
+}

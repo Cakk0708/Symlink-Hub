@@ -1,0 +1,18 @@
+{
+    "duolingo": {
+        "tags": ["duolingo", "global"],
+        "path": "/Users/cakk/Project/Duolingo"
+    },
+    "duolingo_frontend": {
+        "tags": ["duolingo", "global"],
+        "path": "/Users/cakk/Project/Duolingo/frontend"
+    },
+    "duolingo_h5": {
+        "tags": ["duolingo_h5", "global"],
+        "path": "/Users/cakk/Project/Duolingo/frontend"
+    },
+    "duolingo_backend": {
+        "tags": ["duolingo_backend", "python-backend"],
+        "path": "/Users/cakk/Project/Duolingo/backend"
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "msg": "success",
+    "data": {
+        "id": 45,
+        "name": "子节点1-2",
+        "category": "SUB_NODE",
+        "start_time": null,
+        "end_time": null,
+        "canComplete": true,
+        "canDelete": true,
+        "state": "1",
+        "special_data": {},
+        "features": {
+            "submitTest": false,
+            "review": {
+                "list": [
+                    {
+                        "id": 24,
+                        "name": "评审项_1",
+                        "required": true,
+                        "type": "fixed",
+                        "state": "PENDING",
+                        "remark": null,
+                        "deliverable": {
+                            "id": 6,
+                            "name": "评审交付物_1",
+                            "createdByNickname": "Cakk"
+                        }
+                    }
+                ]
+            },
+            "deliverable": {
+                "list": []
+            },
+            "note": {
+                "content": ""
+            },
+            "productManifestEdit": null,
+            "productManifestDeliverableUpload": null,
+            "productManifestDeliverableReview": null
+        },
+        "owners": null,
+        "project_state": 5,
+        "node_state_list": [
+            {
+                "id": 40,
+                "name": "里程碑1",
+                "state": 1,
+                "can_edit": true
+            },
+            {
+                "id": 41,
+                "name": "主节点1",
+                "state": 1,
+                "can_edit": true
+            },
+            {
+                "id": 42,
+                "name": "子节点1-1",
+                "state": 1,
+                "can_edit": true
+            },
+            {
+                "id": 43,
+                "name": "主节点2",
+                "state": 0,
+                "can_edit": false
+            },
+            {
+                "id": 44,
+                "name": "子节点2",
+                "state": 0,
+                "can_edit": false
+            },
+            {
+                "id": 45,
+                "name": "子节点1-2",
+                "state": 1,
+                "can_edit": true
+            },
+            {
+                "id": 46,
+                "name": "里程碑2",
+                "state": 0,
+                "can_edit": false
+            }
+        ],
+        "authority": {
+            "1001": true,
+            "1002": true,
+            "1003": true,
+            "1004": true,
+            "1005": true,
+            "1006": true,
+            "1007": true,
+            "1008": true,
+            "1100": true,
+            "1101": true,
+            "1102": true,
+            "1103": true,
+            "1104": true,
+            "1105": true,
+            "1106": true,
+            "1200": true,
+            "1201": true,
+            "1202": true,
+            "1300": true,
+            "2001": true,
+            "2002": true,
+            "2004": true,
+            "2005": true,
+            "2006": true,
+            "2007": true,
+            "2008": true,
+            "2009": true,
+            "2010": true,
+            "2011": true,
+            "2012": true,
+            "2013": true,
+            "2200": true,
+            "2201": true,
+            "2202": true,
+            "2203": true,
+            "2205": true,
+            "2300": true,
+            "2400": true,
+            "2500": true,
+            "2600": true,
+            "3000": true,
+            "3001": true,
+            "3002": true
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "PMS - API 文档": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "apifox-mcp-server@latest",
+                "--project-id=3031571"
+            ],
+            "env": {
+                "APIFOX_ACCESS_TOKEN": "afxp_d8e0dfbczS5KnVxaYVwEH8hqHFlQUwGPsu15"
+            }
+        }
+    }
+}
