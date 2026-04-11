@@ -1,13 +1,6 @@
 {
     "rules": [
         {
-            "wRGEOxNudayoXmvYIUe8": {
-                "name": "code-style",
-                "tags": [
-                    "python-backend"
-                ],
-                "description": "约束 Python 代码行宽、空行、文件结尾空行和类名格式。"
-            },
             "TUltQoLbiugO7kjYrPDF": {
                 "name": "delete-serializer",
                 "tags": [
@@ -66,16 +59,6 @@
                     "python-backend"
                 ],
                 "description": "统一模型、通用字段和 REST URL 的命名规则。"
-            },
-            "NK4YKS0oU1GsYQHCvbku": {
-                "name": "delete-serializer",
-                "tags": [
-                    "python-backend"
-                ],
-                "structure": [
-                    "serializers"
-                ],
-                "description": "规范删除序列化器必须使用可校验的批量 ids 字段。"
             },
             "AIlnOorgc4cxLrB6ZrCA": {
                 "name": "detail-serializer",
@@ -2590,14 +2573,14 @@
     ],
     "memory": [
         {
-            "b3pURnbHlZnA5tuL86N8": {
-                "tags": [
-                    "global"
-                ]
-            },
             "0wqbU7wBCibjnYBbUdgp": {
                 "tags": [
                     "duolingo"
+                ]
+            },
+            "0w1b37wB6ibj6YBbUdg1": {
+                "tags": [
+                    "duolingo_backend"
                 ]
             },
             "xmZ5jmdI9Qe40YGC6sLZ": {

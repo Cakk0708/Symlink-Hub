@@ -1,2 +1,4 @@
 node_modules
 docs/OLD/Scripts/__pycache__/
+.links/
+__pycache__/
