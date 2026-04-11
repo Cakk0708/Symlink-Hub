@@ -1,3 +1,0 @@
-# Ignore skill cache and temporary files
-.cache/
-*.log
