@@ -259,14 +259,33 @@ devweave status
 
 ⸻
 
-6.6 项目管理
+6.6 项目导入
+
+devweave import backend --agent claude
+
+从目标项目中扫描已有的 AI 配置文件（skills、rules、agents 等），反向导入到内容库中。
+
+适用于：
+	•	项目首次接入 Symlink-Hub，需将现有配置迁移到统一管理
+	•	从其他项目复制可复用的配置片段
+
+行为：
+	•	扫描目标项目的工作目录（.claude/ 或 .codex/）
+	•	识别各类型资源（skills、rules、agents、commands、docs、memory、mcp）
+	•	跳过内容库中已存在的同名资源
+	•	交互式为新资源分配标签
+	•	复制文件到内容库并生成配置条目
+
+⸻
+
+6.7 项目管理
 
 devweave project add backend /path --type backend
 
 
 ⸻
 
-6.7 状态系统
+6.8 状态系统
 	•	查看项目同步状态
 	•	检测失效链接
 	•	检测配置异常

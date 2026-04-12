@@ -346,7 +346,42 @@ manifest 用途：
 
 ## 12. 核心命令设计
 
-### 12.1 `sync`
+### 12.1 `import`
+
+```bash
+symlink-hub import backend --agent claude
+symlink-hub import backend --agent codex
+```
+
+行为：
+
+- 加载项目配置，定位目标项目路径
+- 扫描目标项目的工作目录（`.claude/` 或 `.codex/`）及根目录特殊文件
+- 按路径规则将文件分类为对应资源类型
+- 对比 config.json 中已有条目，跳过同名资源
+- 交互式为新资源选择标签
+- 复制文件到 `data/{type}/` 目录，生成随机 ID
+- 更新 `config.json` 和 `tags.json`
+
+扫描规则（以 claude 为例）：
+
+| 路径模式 | 资源类型 | 说明 |
+| --- | --- | --- |
+| `.claude/skills/*/SKILL.md` | skills | skill 目录名为 name |
+| `.claude/skills/*/references/*` | references | 自动关联到对应 skill |
+| `.claude/rules/**/*.md` | rules | 子目录映射为 structure |
+| `.claude/agents/**/*.md` | agents | 同上 |
+| `.claude/commands/**/*.md` | commands | 同上 |
+| `.claude/docs/**/*.md` | docs | 同上 |
+| `CLAUDE.md` | memory | 根目录 |
+| `.mcp.json` | mcp | 根目录 |
+
+冲突策略：
+
+- 同名资源（config 中已有相同 name）默认跳过
+- 资源 ID 确保不与已有文件冲突
+
+### 12.2 `sync`
 
 ```bash
 symlink-hub sync backend --agent codex
@@ -364,7 +399,7 @@ symlink-hub sync backend --agent codex --mode copy --conflict backup
 - 执行分发
 - 写入 manifest
 
-### 12.2 `dry-run`
+### 12.3 `dry-run`
 
 ```bash
 symlink-hub dry-run
@@ -377,7 +412,7 @@ symlink-hub dry-run backend --agent claude
 - 不写文件
 - 输出冲突和变更摘要
 
-### 12.3 `clean`
+### 12.4 `clean`
 
 ```bash
 symlink-hub clean backend --agent codex
@@ -389,7 +424,7 @@ symlink-hub clean backend --agent codex
 - 删除当前 agent 管理的构建产物
 - 清理空目录
 
-### 12.4 `status`
+### 12.5 `status`
 
 展示：
 
@@ -398,7 +433,7 @@ symlink-hub clean backend --agent codex
 - 当前模式
 - 漂移文件数量
 
-### 12.5 `doctor`
+### 12.6 `doctor`
 
 检查项：
 
